@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\NewProject_Dev_2019\\GitHub\\DevOps\\ClassLibrary1\\ClassLibrary1\\ClassLibrary1.csproj": {}
+  },
+  "projects": {
+    "H:\\NewProject_Dev_2019\\GitHub\\DevOps\\ClassLibrary1\\ClassLibrary1\\ClassLibrary1.csproj": {
+      "version": "1.0.0.2",
+      "restore": {
+        "projectUniqueName": "H:\\NewProject_Dev_2019\\GitHub\\DevOps\\ClassLibrary1\\ClassLibrary1\\ClassLibrary1.csproj",
+        "projectName": "ClassLibrary1",
+        "projectPath": "H:\\NewProject_Dev_2019\\GitHub\\DevOps\\ClassLibrary1\\ClassLibrary1\\ClassLibrary1.csproj",
+        "packagesPath": "C:\\Users\\ken_tai\\.nuget\\packages\\",
+        "outputPath": "H:\\NewProject_Dev_2019\\GitHub\\DevOps\\ClassLibrary1\\ClassLibrary1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ken_tai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://pkgs.dev.azure.com/kentai/DevOps/_packaging/Test/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
